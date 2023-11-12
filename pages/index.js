@@ -32,8 +32,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         <p>Hello, I'm Suneel. I'm a software engineer</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <Link href="/posts/first-post">our Next.js tutorial</Link>.)
+          <Link href="/posts/first-post">My first post</Link>.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -60,7 +59,6 @@ export default function Home({ allPostsData }) {
     </Layout>
   );
 }
-
 
 // import useSWR from "swr";
 
